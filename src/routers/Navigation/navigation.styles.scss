@@ -1,0 +1,30 @@
+.navigation {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  
+    .logo-container {
+      height: 100%;
+      width: 10px;
+      padding: 0px 15px;
+      
+
+    }
+  
+    .nav-links-container {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .nav-link {
+        font-size: larger;
+        font-family:fantasy;
+        padding: 5px 15px;
+        cursor: pointer;
+      }
+    }
+  }
